@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Extensions Page Blocker",
+  "version": "1.0",
+  "description": "Blocks access to the extensions management page",
+  "permissions": ["tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
